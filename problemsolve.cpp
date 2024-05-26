@@ -29,8 +29,7 @@ int main() {
    error=fabs((x1-x0)/x1);
     itr++;
     cout<<"iteration=  "<<itr<<"  g(x)= "<<g(x1)<<" root= "<<x1<<endl;
-
     x0=x1;
    }while(error>0.000001);
-       cout<<"iteration=  "<<itr<<"  g(x)= "<<g(x1)<<" root= "<<x1<<endl;
+       cout<<"iteration=  "<<" root= "<<x1<<endl;
 }

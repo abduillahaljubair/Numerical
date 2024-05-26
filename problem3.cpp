@@ -22,8 +22,5 @@ int main()
         x0=x1;
         x1=x2;
 
-    }while (fabs(error) > 0.000001);
-
- cout<<"iteration= "<<itr<<"root = "<<setprecision(10)<<x2<<endl;
 
 }
